@@ -1,38 +1,39 @@
-# create-svelte
+This repo is based on [here](https://github.com/nextauthjs/sveltekit-auth-example)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+   <br/>
+   <a href="https://authjs.dev" target="_blank">
+   <img height="64" src="https://authjs.dev/img/logo/logo-sm.png" />
+   </a>
+   <a href="https://kit.svelte.dev" target="_blank">
+   <img height="64" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" />
+   </a>
+   <h3 align="center"><b>SvelteKit Auth</b> - Example App</h3>
+   <p align="center">
+   Open Source. Full Stack. Own Your Data.
+   </p>
+   <p align="center" style="align: center;">
+      <a href="https://npm.im/@auth/sveltekit">
+        <img alt="npm" src="https://img.shields.io/npm/v/@auth/sveltekit?color=green&label=@auth/sveltekit&style=flat-square">
+      </a>
+      <a href="https://bundlephobia.com/result?p=@auth/sveltekit">
+        <img src="https://img.shields.io/bundlephobia/minzip/@auth/sveltekit?label=size&style=flat-square" alt="Bundle Size"/>
+      </a>
+      <a href="https://www.npmtrends.com/@auth/sveltekit">
+        <img src="https://img.shields.io/npm/dm/@auth/sveltekit?label=downloads&style=flat-square" alt="Downloads" />
+      </a>
+      <a href="https://npm.im/@auth/sveltekit">
+        <img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square" alt="TypeScript" />
+      </a>
+   </p>
+</p>
 
-## Creating a project
+## Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is the official SvelteKit Auth example for [Auth.js](https://sveltekit.authjs.dev).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Getting started
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+You can instantly deploy this example to [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=sveltekit-auth-example) by clicking the following button.
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/nextauthjs/sveltekit-auth-example&project-name=sveltekit-auth-example&repository-name=sveltekit-auth-example)
