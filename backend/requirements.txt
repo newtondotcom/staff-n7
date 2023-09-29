@@ -1,6 +1,8 @@
-Django
+django
 djangorestframework
 django-cors-headers
 djangorestframework-simplejwt
 pywebpush
 python-dotenv
+dj-rest-auth 
+djangorestframework-simplejwt
