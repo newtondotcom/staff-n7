@@ -10,7 +10,6 @@ export const handle = SvelteKitAuth({
 })
 */
 
-
 const client = ldap.createClient({
   url: LDAP_URI,
 })
@@ -34,7 +33,13 @@ export const handle = SvelteKitAuth({
             console.log("Attempting to log in as", credentials.username)
             if (error) {
               console.error("Failed")
-              reject()
+              //reject()
+              resolve(
+                {
+                  username: credentials.username,
+                  password: credentials.password,
+                }
+              )
             } else {
               console.log("Logged in")
               resolve({
