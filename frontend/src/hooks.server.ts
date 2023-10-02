@@ -19,7 +19,6 @@ client.on('connectError', (err) => {
 })
 
 export const handle = SvelteKitAuth({
-
   providers: [
     CredentialsProvider({
       name: "LDAP",
@@ -54,6 +53,7 @@ export const handle = SvelteKitAuth({
   ],
   callbacks: {
     async jwt({ token, user }) {
+      console.log("jwt")
       const isSignIn = user ? true : false
       if (isSignIn) {
         token.username = user.username
