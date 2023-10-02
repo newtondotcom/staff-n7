@@ -1,9 +1,9 @@
 <script lang="ts">
   import constants from '$lib/constants';
   import Cookies from 'js-cookie';
-
+  
   async function test() {
-    const req = await fetch(`${constants.API_URL}test/?token=${encodeURIComponent("eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..M7r-1r0alwPVP-nk.H0ysk__08awvj3DV09zw1572ZLCXJ65CQaxTBUf17bv60WWx-bhlzhsAVwpP--41AKQ-AO0RLH-AwtTrE7RbEHOKQbl9mXHGtVCJXFivtIey_M-DsaEr5C2Y1H1PhmSMBwS7Rh17qQBkPdmdUyY.baPBdP3VhoNd2G6kTs4FJA")}`, {
+    const req = await fetch(`${constants.API_URL}test/?token=${encodeURIComponent("eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..EAMaWWl8_fTA9UfQ.bBsU20EfdpofAzjm_t0ziAtSaPrWOT9fjfIvh6GdrWZyFX81cWYSJ2bfVXoaFgBn_aiTbL3cKhjUD3Yut51OtO2qqN-He7_QZqYZSWwJYP1ayPNnWSuDdNSMSCiUmNMMcXvAthFrU9ulGQyKn9aQug.Rvf0akmeKPBdmjXn3d6k_A")}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

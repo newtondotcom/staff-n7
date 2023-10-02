@@ -64,5 +64,6 @@ export const handle = SvelteKitAuth({
     async session({ session, token }) {
       return { ...session, user: { username: token.username } }
     },
-  }
+  },
+  secret: "0cf9440fb9cac02a2af17ba1a40c54acd41cbe0ff959101cdc76f94b07c000e4",
 })
